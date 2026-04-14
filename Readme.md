@@ -51,7 +51,7 @@ project-folder/
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/your-repo-name.git
+git clone(https://github.com/Rohitginnore/Dynamic-Content-Builder)
 ```
 
 2. Open the folder
