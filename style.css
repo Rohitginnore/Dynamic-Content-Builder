@@ -1,0 +1,143 @@
+body{
+      margin: 0;
+      padding: 0;
+      overflow: scroll;
+}
+
+.main{
+     display: flex;
+     gap: 10px;
+     height: 100vh;
+}
+
+
+.left-side{
+    position: fixed;
+      width: 20%;
+      /* border: 2px solid black; */
+      background-color: lightgrey;
+       padding: 15px;
+       height: 100vh;
+    }
+
+
+
+.right-side{
+    margin-left: 350px;
+    width: calc(100% - 250px);
+    /* border: 2px solid black; */
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+     gap: 20px;
+     /* justify-content: flex-right; */
+  padding: 20px;
+     /* border: 2px gray dashed; */
+     align-items: stretch;
+    } 
+
+
+ button{
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px 10px;
+      background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+ button:hover{
+     background-color: #0056b3;
+ }
+
+ .right-side img{
+      display: block;
+      margin: 10px auto;
+      border-radius: 10px;
+ }
+
+.right-side h1{
+      font-family: cursive;
+ }
+.right-side p{
+      font-family: cursive;
+      font-weight: 600;
+      font-size: 15px;
+}
+
+#save{
+    background-color: #28a745;   
+}
+
+#save:hover{
+    background-color: #1e7e34;
+}
+
+.right-side >*{
+    background-color: white;
+  cursor: grab;
+  border-radius: 10px;
+  padding: 15px;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.block{
+    cursor: grab;
+    /* border: 2px solid red; */
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+} 
+
+
+.Delete{
+     padding: 8px 10px;
+     color: white;
+    border-radius: 6px;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    transition: 0.3s;
+  background-color: #dc3545;
+}
+
+.Delete:hover{
+     background-color: #b02a37;
+}
+
+#DeleteAll{
+   background-color: #dc3545;
+}
+
+#DeleteAll:hover{
+      background-color: #b02a37;
+}
+
+
+@media (max-width: 768px){
+     .main{
+        flex-direction: column;
+     }
+     .left-side{
+        width: 100%;
+        position: static;
+     }
+
+     .right-side{
+        width: 100%;
+        margin-left: 0;
+     }
+
+}
+
