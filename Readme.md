@@ -1,4 +1,5 @@
-<img width="1918" height="909" alt="image" src="https://github.com/user-attachments/assets/34e87f8c-d941-4106-b6f9-647718f81024" /># 🚀 Dynamic Content Builder (Drag & Drop Page Builder)
+
+# 🚀 Dynamic Content Builder (Drag & Drop Page Builder)
 
 ## 📌 Overview
 
