@@ -1,4 +1,4 @@
-# 🚀 Dynamic Content Builder (Drag & Drop Page Builder)
+<img width="1918" height="909" alt="image" src="https://github.com/user-attachments/assets/34e87f8c-d941-4106-b6f9-647718f81024" /># 🚀 Dynamic Content Builder (Drag & Drop Page Builder)
 
 ## 📌 Overview
 
@@ -31,7 +31,7 @@ This is a dynamic web application that allows users to create and customize thei
 
 👉 [Click Here to View Live Project](#)
 
-*(Add your Netlify link here)*
+*(dynamic-content-builder.netlify.app)*
 
 ---
 
@@ -83,5 +83,14 @@ git clone(https://github.com/Rohitginnore/Dynamic-Content-Builder)
 **Rohit Ginnore**
 
 ---
+
+Screen-shot:
+<img width="1917" height="895" alt="image" src="https://github.com/user-attachments/assets/d2dd4289-c279-448e-a51d-4544613743ee" />
+<img width="1919" height="901" alt="image" src="https://github.com/user-attachments/assets/d7565a6b-8aec-409f-8254-190c7e1d481b" />
+<img width="1918" height="909" alt="Screenshot 2026-04-14 164904" src="https://github.com/user-attachments/assets/9bcefab1-0ed9-43a0-b373-a4487cb21223" />
+<img width="1919" height="916" alt="Screenshot 2026-04-14 164846" src="https://github.com/user-attachments/assets/0eea866c-55f0-4b04-a86b-2d9ec92a2170" />
+
+
+
 
 ⭐ If you like this project, consider giving it a star!
