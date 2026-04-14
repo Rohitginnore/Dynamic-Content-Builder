@@ -125,6 +125,7 @@ body{
 }
 
 
+
 @media (max-width: 768px){
      .main{
         flex-direction: column;
@@ -137,6 +138,44 @@ body{
      .right-side{
         width: 100%;
         margin-left: 0;
+        align-items: stretch;
+     }
+     .block{
+      width: 100%;
+      text-align: center;
+     }
+     .block img{
+      display: block;
+      max-width: 100%;
+      margin: 10px auto;
+   height: auto;
+     }
+
+}
+
+@media (max-width: 400px){
+     .main{
+        flex-direction: column;
+     }
+     .left-side{
+        width: 100%;
+        position: static;
+     }
+
+     .right-side{
+        width: 100%;
+        margin-left: 0;
+        align-items: stretch;
+     }
+       .block{
+      width: 100%;
+      text-align: center;
+     }
+     .block img{
+      display: block;
+      max-width: 100%;
+      margin: 10px auto;
+   height: auto;
      }
 
 }
