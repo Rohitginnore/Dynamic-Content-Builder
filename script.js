@@ -70,7 +70,7 @@ addImage.addEventListener('click', ()=>{
   div.appendChild(img);
   div.appendChild(Deletebtn);
   canvas.appendChild(div);
-  img.style.width = "200px";
+  img.style.width = "500px";
 });
 
 
